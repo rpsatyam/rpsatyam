@@ -35,11 +35,11 @@ body {
 
 /* Cube faces */
 .front  { transform: translateZ(100px); background-image: url('images/image1.jpg'); }
-.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('images/image2.jpg'); }
-.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('images/image3.jpg'); }
-.right  { transform: rotateY(90deg) translateZ(100px); background-image: url('images/image6.jpg'); }
-.top    { transform: rotateX(90deg) translateZ(100px); background-image: url('images/image5.jpg'); }
-.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('images/image4.jpg'); }
+.back   { transform: rotateY(180deg) translateZ(100px); background-image: url('images/image2.JPG'); }
+.left   { transform: rotateY(-90deg) translateZ(100px); background-image: url('images/image3.JPG'); }
+.right  { transform: rotateY(90deg) translateZ(100px); background-image: url('images/image6.JPG'); }
+.top    { transform: rotateX(90deg) translateZ(100px); background-image: url('images/image5.JPG'); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); background-image: url('images/image4.JPG'); }
 
 @keyframes rotate {
     from { transform: rotateX(360deg) rotateY(360deg); }
